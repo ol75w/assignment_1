@@ -1,0 +1,94 @@
+body{
+    width: 992px;
+    margin: auto;
+}
+/* header part start  */
+header{
+    font-family: sans-serif;
+}
+header .first{
+    background-image: url(../images/code-wallpaper-2.jpeg);
+    background-repeat: no no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 130px 130px;
+    color: white;
+}
+header .first h1{}
+header .first a {
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(44, 43, 43);
+    padding: 5px;
+}
+header .mid{
+   text-align: center;
+}
+header .sec{
+    text-align: center;
+    display: flex;
+    background-color: ghostwhite;
+}
+/* main part start  */
+main{
+    font-family: sans-serif;
+    display: inline-flex;
+    background-color: rgb(70, 65, 65);
+    margin: center;
+    padding: 40px;
+}
+main .main_fr{
+    background-color: white;
+    border: 1px solid black;
+    padding: 50px;
+    
+}
+main .main_sec{
+    margin-left: 12px;
+}
+main .main_rd{
+    margin-left: 12px;
+}
+main .main_fr img{
+    size: cover;
+    width: 140px;
+}
+main .main_fr h2{}
+/* aside part start  */
+aside{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: white);
+    margin: 0;
+}
+aside h2{}
+aside p{
+    padding-top: 12px;
+}
+/* footer part start  */
+footer{
+    font-family: sans-serif;
+    display: inline-flex;
+    color: white;
+}
+footer .left{
+    border: 1px solid blue;
+    background-color: blue;
+    text-align: center;
+}
+footer .right{
+    border: 1px solid rgb(97, 91, 91);
+    padding-left: 10px;
+    background-color: rgb(58, 56, 56);
+    text-align: center;
+}
+section .end{
+    background-image: url(../images/e7043444136efd6c472e185af121dbf4.jpg);
+    flex: 1;
+    padding: 5px;
+    color: white;
+}
+section .end h3{
+    padding-left: 90px;
+}
